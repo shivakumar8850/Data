@@ -6,3 +6,4 @@ lazy val root = (project in file("."))
   .settings(
     name := "Data"
   )
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.4"
